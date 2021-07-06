@@ -1,32 +1,188 @@
 /*********************************TAG Selectors*************************************/
-body {
-    background-color:mintcream;
+html {
+    scroll-behavior: smooth;
 }
 
-hr {
-    border-style:none;
-    border-top-style: dotted;
-    width: 5%;
-    border-color: gray;
-    border-width: 5px;
+body {
+    color: #272e2d;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
 }
+
 
 h1 {
-    color: #57a89b;
+    color: #66BFBF;
+    font-size: 5rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    margin-top: 0;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
 }
 
 h3 {
-    color: #57a89b;
-}
-img {
-    max-width: 100%;
-    width: 50%;
+    color: #11999E;
+    margin-bottom: 0;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 80px auto;
+}
+
+
+
 /*********************************Class Selectors*************************************/
+
 .circular {
     border-radius: 100%;
 }
 
 
+.top-container {
+    background-color:mintcream;
+    position: relative;
+    padding-top: 150px;
+}
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.bottom-container {
+    position: relative;
+    background-color: #66BFBF;
+    padding: 30px 0 20px;
+}
+
+.top-cloud {
+    width: 10%;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    width: 10%;
+    position: absolute;
+    left: 150px;
+    bottom: 200px;
+}
+
+.mountain {
+    width: 40%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile-photo {
+    max-width: 100%;
+    width: 12%;
+    padding-bottom: 20px;
+}
+
+.intro {
+    font-weight: normal;
+}
+
+.about-me {
+    width: 30%;
+    margin: auto;
+}
+
+.rpa-skill-photo {
+    max-width: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.webd-skill-photo {
+    max-width: 100%;
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.footer-link{
+    color: #177c80;
+    font-family: 'Merriweather', serif;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #bdecec;
+}
+
+.icons-credits {
+    color: #177c80;
+    font-size: 10px;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.contact-me-msg {
+    width: 22%;
+    margin: 0 auto 40px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+
+}
+
+.contact-me-btn {
+    background: #66BFBF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 5px;
+ }
+ 
+ .contact-me-btn:hover {
+    background: #6fd1d1;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .back-to-top-btn {
+    float: right;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #d6e3f0;
+    padding: 0.25rem;
+ }
+
+ 
 /*********************************ID Selectors*************************************/
